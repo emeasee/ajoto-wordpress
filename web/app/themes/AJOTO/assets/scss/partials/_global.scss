@@ -1,0 +1,194 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #565656;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b79749;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b79749;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   AJOTO's custom styles
+   ========================================================================== */
+
+small{
+  font-size: 65%;
+}
+
+  .button{
+    font-family: $ssbold;
+    background: $gold1;
+    border: none;
+    padding: 6px 12px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+    &:hover {
+      color: #fff;
+      background: $gold3;
+      
+    }
+   }
+
+   @keyframes nodeInserted {  
+       from {  
+           clip: rect(1px, auto, auto, auto);  
+       }
+       to {  
+           clip: rect(0px, auto, auto, auto);
+       }  
+   }
+
+   @-moz-keyframes nodeInserted {  
+       from {  
+           clip: rect(1px, auto, auto, auto);  
+       }
+       to {  
+           clip: rect(0px, auto, auto, auto);
+       }  
+   }
+
+   @-webkit-keyframes nodeInserted {  
+       from {  
+           clip: rect(1px, auto, auto, auto);  
+       }
+       to {  
+           clip: rect(0px, auto, auto, auto);
+       }  
+   }
+
+   @-ms-keyframes nodeInserted {  
+       from {  
+           clip: rect(1px, auto, auto, auto);  
+       }
+       to {  
+           clip: rect(0px, auto, auto, auto);
+       }  
+   }
+
+   @-o-keyframes nodeInserted {  
+       from {  
+           clip: rect(1px, auto, auto, auto);  
+       }
+       to {  
+           clip: rect(0px, auto, auto, auto);
+       }  
+   } 
+
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Text meant only for screen readers */
+.assistive-text {
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+
+
+/*
+ * Box Sizing
+ *
+ * Set that shit to border-box, yo. And fix those pesky pseudo elements
+ */
+
+/* ==========================================================================
+   Border-box all the things!
+   ========================================================================== */
+*,
+:before,
+:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
