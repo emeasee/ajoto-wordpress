@@ -1,5 +1,5 @@
-set :application, 'my_app_name'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'ajoto.net'
+set :repo_url, 'git@github.com:emeasee/ajoto-wordpress.git'
 
 # Branch options
 # Prompts for the branch name (defaults to current branch)

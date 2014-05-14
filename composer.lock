@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bc78dfb47ea03142c13601f0d8ca2c8b",
+    "hash": "b826ebe7d821e513ea0916cb216e16ea",
     "packages": [
         {
             "name": "composer/installers",
@@ -179,10 +179,10 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "3.9",
+            "version": "3.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://wordpress.org/wordpress-3.9.zip",
+                "url": "https://wordpress.org/wordpress-3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -190,22 +190,266 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/woocommerce.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/woocommerce": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/woocommerce/",
+            "time": "2014-04-30 13:21:33"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-delivery-notes",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/woocommerce-delivery-notes/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/woocommerce-delivery-notes.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/woocommerce-delivery-notes": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/woocommerce-delivery-notes/",
+            "time": "2014-05-02 20:26:01"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-mailchimp",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/woocommerce-mailchimp/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/woocommerce-mailchimp.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/woocommerce-mailchimp": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/woocommerce-mailchimp/",
+            "time": "2014-04-03 06:33:52"
+        },
+        {
+            "name": "wpackagist/add-to-all",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/add-to-all/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/add-to-all.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/add-to-all/",
+            "time": "2014-02-04 00:03:41"
+        },
+        {
+            "name": "wpackagist/hyper-cache",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/hyper-cache/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/hyper-cache.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/hyper-cache/",
+            "time": "2014-04-19 08:38:27"
+        },
+        {
+            "name": "wpackagist/oauth-twitter-feed-for-developers",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/oauth-twitter-feed-for-developers/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/oauth-twitter-feed-for-developers.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/oauth-twitter-feed-for-developers/",
+            "time": "2014-02-18 18:33:34"
+        },
+        {
+            "name": "wpackagist/paymill",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/paymill/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/paymill.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/paymill/",
+            "time": "2014-05-07 22:03:47"
+        },
+        {
+            "name": "wpackagist/simple-minify",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/simple-minify/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/simple-minify.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/simple-minify/",
+            "time": "2013-11-06 16:53:06"
+        },
+        {
+            "name": "wpackagist/use-google-libraries",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/use-google-libraries/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/use-google-libraries.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/use-google-libraries/",
+            "time": "2013-05-22 23:15:58"
+        },
+        {
+            "name": "wpackagist/woocommerce-sales-by-country",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/woocommerce-sales-by-country/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/woocommerce-sales-by-country.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/woocommerce-sales-by-country/",
+            "time": "2013-10-28 19:02:13"
+        },
+        {
+            "name": "wpackagist/wordpress-seo",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/wordpress-seo.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/wordpress-seo/",
+            "time": "2014-05-12 13:22:27"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "wpackagist-plugin/woocommerce": 20,
+        "wpackagist-plugin/woocommerce-mailchimp": 20,
+        "wpackagist-plugin/woocommerce-delivery-notes": 20,
+        "wpackagist/woocommerce-sales-by-country": 20,
+        "wpackagist/wordpress-seo": 20,
+        "wpackagist/use-google-libraries": 20,
+        "wpackagist/simple-minify": 20,
+        "wpackagist/paymill": 20,
+        "wpackagist/oauth-twitter-feed-for-developers": 20,
+        "wpackagist/hyper-cache": 20,
+        "wpackagist/add-to-all": 20
+    },
     "platform": {
         "php": ">=5.3.2"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }
