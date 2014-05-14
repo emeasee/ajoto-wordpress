@@ -66,7 +66,6 @@
     "wpackagist/woocommerce-sales-by-country":"dev-trunk",
     "wpackagist/wordpress-seo":"dev-trunk",
     "wpackagist/use-google-libraries":"dev-trunk",
-    "wpackagist/simple-minify":"dev-trunk",
     "wpackagist/paymill":"dev-trunk",
     "wpackagist/oauth-twitter-feed-for-developers":"dev-trunk",
     "wpackagist/hyper-cache":"dev-trunk",

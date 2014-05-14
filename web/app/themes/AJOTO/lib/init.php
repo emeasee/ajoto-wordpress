@@ -33,9 +33,6 @@ function mb_setup() {
 	// Don't update theme
 	add_filter( 'http_request_args', 'mb_dont_update_theme', 5, 2 );
 
-	// Prevent File Modifications
-	define ( 'DISALLOW_FILE_EDIT', true );
-
 	// Set Content Width
 	if ( ! isset( $content_width ) ) $content_width = 900;
 
