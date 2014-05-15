@@ -26,6 +26,7 @@ web/app/advanced-cache.php
 # Vendor (e.g. Composer)
 vendor/*
 !vendor/.gitkeep
+private
 
 # Node Package Manager
 node_modules

@@ -39,6 +39,10 @@
       "url": "http://wpackagist.org"
     },
     {
+        "type" : "git",
+        "url"  : "git@bitbucket.org:ajoto-private/royalslider.git"
+    },
+    {
       "type": "package",
       "package": {
         "name": "wordpress/wordpress",
@@ -69,7 +73,8 @@
     "wpackagist/paymill":"dev-trunk",
     "wpackagist/oauth-twitter-feed-for-developers":"dev-trunk",
     "wpackagist/hyper-cache":"dev-trunk",
-    "wpackagist/add-to-all":"dev-trunk"
+    "wpackagist/add-to-all":"dev-trunk",
+    "ajoto-private/royalslider":"dev-master"
   },
   "extra": {
     "installer-paths": {
