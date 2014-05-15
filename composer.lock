@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b826ebe7d821e513ea0916cb216e16ea",
+    "hash": "d12f6a8cb62e81acd9a24582c54c0bc6",
     "packages": [
         {
             "name": "composer/installers",
@@ -348,27 +348,6 @@
             "time": "2014-05-07 22:03:47"
         },
         {
-            "name": "wpackagist/simple-minify",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/simple-minify/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/simple-minify.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/simple-minify/",
-            "time": "2013-11-06 16:53:06"
-        },
-        {
             "name": "wpackagist/use-google-libraries",
             "version": "dev-trunk",
             "source": {
@@ -442,7 +421,6 @@
         "wpackagist/woocommerce-sales-by-country": 20,
         "wpackagist/wordpress-seo": 20,
         "wpackagist/use-google-libraries": 20,
-        "wpackagist/simple-minify": 20,
         "wpackagist/paymill": 20,
         "wpackagist/oauth-twitter-feed-for-developers": 20,
         "wpackagist/hyper-cache": 20,

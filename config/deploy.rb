@@ -14,7 +14,7 @@ set :branch, :master
 
 set :deploy_to, "/srv/www/#{fetch(:application)}"
 
-set :log_level, :debug
+set :log_level, :info
 
 set :linked_files, %w{.env}
 set :linked_dirs, %w{web/app/uploads}
@@ -24,11 +24,11 @@ namespace :deploy do
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
       # Your restart mechanism here, for example:
-      # execute :service, :nginx, :reload
+      execute :service, :nginx, :reload
     end
   end
 end
 
 # The above restart task is not run by default
 # Uncomment the following line to run it on deploys if needed
-# after 'deploy:publishing', 'deploy:restart'
+after 'deploy:publishing', 'deploy:restart'
