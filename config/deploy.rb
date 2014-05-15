@@ -14,7 +14,7 @@ set :branch, :master
 
 set :deploy_to, "/srv/www/#{fetch(:application)}"
 
-set :log_level, :info
+set :log_level, :debug
 
 set :linked_files, %w{.env}
 set :linked_dirs, %w{web/app/uploads}

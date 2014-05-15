@@ -11,16 +11,10 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:ajoto-private/royalslider.git",
-                "reference": "011a5d5fb6d6458c426b15300122d8509404daaa"
-            },
-            "dist": {
-                "type": "git",
-                "url": "git@bitbucket.org:ajoto-private/royalslider.git",
-                "reference": null,
-                "shasum": null
+                "reference": "master"
             },
             "type": "wordpress-plugin",
-            "time": "2014-05-15 09:30:06"
+            "time": "2014-05-15 10:01:27"
         },
         {
             "name": "composer/installers",
