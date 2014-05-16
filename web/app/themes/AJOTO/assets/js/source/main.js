@@ -335,7 +335,7 @@ function wrap( str ) {
           $('div.login #password').attr('placeholder', '* Password');
           //$('input#createaccount').attr('checked','checked');
             $(document).ajaxComplete(function(event, xhr, settings) {
-                if(settings.url == "/wp-admin/admin-ajax.php?action=woocommerce_checkout"){
+                if(settings.url == "/wp/wp-admin/admin-ajax.php?action=woocommerce_checkout"){
                   $('ul.woocommerce-error').prependTo('div.woocommerce');
                 }
             });
@@ -369,7 +369,7 @@ function wrap( str ) {
                 //var parent = $(this).parent().prop("tagName");
                 jQuery.ajax({
                     type: 'POST',
-                    url: 'http://'+document.location.hostname+'/wp-admin/admin-ajax.php',
+                    url: 'http://'+document.location.hostname+'/wp/wp-admin/admin-ajax.php',
                     data: {
                         action: 'get_exchange_rate',
                         amount: amount,
