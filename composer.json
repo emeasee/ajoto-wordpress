@@ -84,5 +84,14 @@
     },
     "webroot-dir": "web/wp",
     "webroot-package": "wordpress/wordpress"
-  }
+  },
+  "heroku": {
+    "php-config": [
+        "post_max_size=20M"
+    ],
+    "nginx-includes": ["dokku-nginx.conf"],
+    "document-root": "web",
+    "index-document": "index.php",
+    "new-relic": true
+   },
 }
