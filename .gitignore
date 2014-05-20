@@ -36,3 +36,6 @@ bin
 .vagrant
 provision
 Vagrantfile
+vvv-hosts
+vvv-init.sh
+vvv-nginx.conf

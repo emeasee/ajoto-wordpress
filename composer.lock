@@ -224,7 +224,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/woocommerce/",
-            "time": "2014-04-30 13:21:33"
+            "time": "2014-05-14 14:03:28"
         },
         {
             "name": "wpackagist-plugin/woocommerce-delivery-notes",
@@ -248,7 +248,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/woocommerce-delivery-notes/",
-            "time": "2014-05-02 20:26:01"
+            "time": "2014-05-17 08:25:48"
         },
         {
             "name": "wpackagist-plugin/woocommerce-mailchimp",
@@ -356,7 +356,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/paymill/",
-            "time": "2014-05-07 22:03:47"
+            "time": "2014-05-19 18:16:58"
         },
         {
             "name": "wpackagist/use-google-libraries",
@@ -398,7 +398,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/woocommerce-sales-by-country/",
-            "time": "2013-10-28 19:02:13"
+            "time": "2014-05-15 07:58:10"
         },
         {
             "name": "wpackagist/wordpress-seo",
@@ -419,7 +419,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/wordpress-seo/",
-            "time": "2014-05-12 13:22:27"
+            "time": "2014-05-16 09:37:25"
         }
     ],
     "packages-dev": [],
